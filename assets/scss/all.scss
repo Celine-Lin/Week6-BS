@@ -1,6 +1,7 @@
-// google font & icons
+// google font
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+// icon
+@import url(/assets/icofont/icofont.min.css);
 
 // Bootstrap
 @import "../../node_modules/bootstrap/scss/functions";
@@ -10,9 +11,6 @@
 @import "./base/base"; //全站設定
 
 @import "../../node_modules/bootstrap/scss/variables"; //原始變數
-
-@import './layout/header.scss';
-@import './layout/footer.scss';
 
 @import './pages/index.scss';
 

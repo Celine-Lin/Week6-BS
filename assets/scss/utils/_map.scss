@@ -3,6 +3,7 @@ $font-sizes: (
   60:   60px,
   48:   48px,
   32:   32px,
+  30:   30px,
   24:   24px,
   20:   20px,
   18:   18px,
@@ -10,16 +11,43 @@ $font-sizes: (
   14:   14px,
 );
 
+$h1-font-size:  32px;
+$h2-font-size:  64px;
+$h3-font-size:  60px;
+$h4-font-size:  48px;
+$h5-font-size:  32px;
+$h6-font-size:  24px;
+
 $spacer: 1rem; //16
 $spacers: (
   0:  0,
   4:  4px,
   12: 12px,
   16: 16px,
+  20: 20px,
   24: 24px,
   32: 32px,
   35: 35px,
   48: 48px,
   58: 58px,
   60: 60px,
+);
+
+$utilities: (
+  "font-size": (
+    rfs: false,
+    responsive: true,
+    property: font-size,
+    class: fs,
+    values: $font-sizes,
+  ),
+);
+
+$gutters: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
 );

@@ -1,14 +1,18 @@
 $primary:       #030303; // black
 $secondary:     #FBFF22; // yellow
-$reminder:         #C96464; // pink
+$reminder:      #C96464; // pink
+$mud:           #eae9e3; // brown
 
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
   "reminder":   $reminder,
+  "mud":        $mud,
 );
 
 $font-family-sans-serif: 'Yeseva One', cursive ,'Noto Serif TC', serif, 'Noto Sans TC', sans-serif;
 
-// $link-color:      $dark;
-// $link-decoration: none;
+$link-decoration: none;
+// $link-color:   $dark;
+
+$card-height: 100%;
