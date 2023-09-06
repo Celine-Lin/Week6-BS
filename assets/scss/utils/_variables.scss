@@ -2,12 +2,14 @@ $primary:       #030303; // black
 $secondary:     #FBFF22; // yellow
 $reminder:      #C96464; // pink
 $mud:           #eae9e3; // brown
+$wasabi:        #9C9E18; // light green
 
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
   "reminder":   $reminder,
   "mud":        $mud,
+  "wasabi":     $wasabi,
 );
 
 $font-family-sans-serif: 'Yeseva One', cursive ,'Noto Serif TC', serif, 'Noto Sans TC', sans-serif;
@@ -16,3 +18,14 @@ $link-decoration: none;
 // $link-color:   $dark;
 
 $card-height: 100%;
+
+.Yeseva-One{
+  font-family: 'Yeseva One', cursive ,'Noto Serif TC', serif !important;
+}
+.Noto-Serif-TC{
+  font-family: 'Noto Serif TC', serif !important;
+}
+
+.Noto-Sans-TC{
+  font-family: 'Noto Sans TC', sans-serif !important;
+}

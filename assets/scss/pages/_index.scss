@@ -1,0 +1,35 @@
+.album-tag{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-4deg) !important;
+    // z-index: 1;
+}
+
+.tag-hover:hover{
+    background: #000;
+    color: $white !important;
+    border-color: $secondary !important;
+}
+
+.tag-hover-0:hover{
+    border-left-color: $secondary !important;
+}
+
+.btn-hover:hover{
+    color: $secondary !important;
+}
+
+.btn-sell:hover{
+    position: relative;
+    &::before{
+        content: "";
+        width: 29px;
+        height: 29px; 
+        background-color: $secondary;
+        left:-30%;
+        border-radius: 50%;
+        position: absolute;
+        left: -8px;
+    }
+}
