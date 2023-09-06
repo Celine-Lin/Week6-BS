@@ -7,6 +7,242 @@
     <title>Event</title>
   </head>
   <body style="background-color: #eae9e3;">
+
     <%- include('./layout/header'); -%>
+    <main>
+      <div class="container d-flex flex-column align-items-center">
+        <h2 class="w-100 fs-24 fs-md-48 fs-xxl-64 d-flex justify-content-between align-items-center border border-primary border-3 mb-32 py-24 px-32 my-32">
+          EVENT
+          <span class="fw-bold fs-16 fs-md-28 fs-xxl-32">所有活動</span>
+        </h2>
+        <!-- Hashtag -->
+        <ul class="d-flex fs-14 fs-md-16 fw-bold p-0 mb-24 flex-wrap">
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">演出</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">音樂</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">舞蹈</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">戲劇</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">音樂會</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">課程講座</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">社群活動</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">展覽</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">研討會</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">電影</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">電音派對</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">遊戲競賽</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">親子</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">藝文活動</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">運動</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">交通旅遊</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">美食</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">資訊科技</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">聯誼</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">戶外</a>
+          </li>
+          <li class="mb-8 border border-primary tag-hover-0 me-8">
+            <a href="#" class="py-4 ps-20 pe-24 border-start border-primary border-4 tag-hover">線上活動</a>
+          </li>
+        </ul>
+
+        <!-- Blog -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+          <%- include('./layout/event'); -%>
+
+          <!-- event blog 7 -->
+          <div class="col">
+            <div class="card h-100 bg-mud border-0">
+              <p class="fs-32 fs-xl-48 Yeseva-One border-bottom border-primary border-3">19 MAY 2023</p>
+              <img class="img-fuild event-photo py-12" style="object-fit: cover;" height="210px" src="/assets/images/event-07.jpg" alt="event photo">
+              <div class="card-body p-0 d-flex flex-column">
+                <h3 class="card-title fs-18 fs-md-24 fw-bold py-12">野營音樂祭</h3>
+                <p class="card-text mb-16">喜歡山水、喜歡音樂嗎？一起在溪邊來場浪漫的沉浸式森林活動吧！結合四大戶外探索類別、超過 15 項體驗與工作坊、新興音樂人的草地演唱。</p>
+                <div class="d-flex justify-content-between py-12 mt-auto border-top border-bottom border-2 border-primary">
+                  <div class="d-flex">
+                    <img src="/assets/images/sparkler.png" class="me-4 sparkles-icon" width="20px" height="20px" alt="sparkles icon">
+                    <p class="fw-bold">演出</p>
+                  </div>
+                  <a href="#" class="d-flex btn-sell">
+                    <p class="fw-bold" style="z-index: 1;">開賣中</p>
+                    <img src="/assets/images/rounded-double-right 1.svg" class="ms-4" with="16px" height="16px" alt="double arrow icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- event blog 8 -->
+          <div class="col">
+            <div class="card h-100 bg-mud border-0">
+              <p class="fs-32 fs-xl-48 Yeseva-One border-bottom border-primary border-3">19 MAY 2023</p>
+              <img class="img-fuild event-photo py-12" style="object-fit: cover;" height="210px" src="/assets/images/event-08.jpg" alt="event photo">
+              <div class="card-body p-0 d-flex flex-column">
+                <h3 class="card-title fs-18 fs-md-24 fw-bold py-12">疊疊樂大賽</h3>
+                <p class="card-text mb-16">來到七星潭會想到什麼呢？絕對是數也數不清的扁扁石頭吧！有這項技能卻沒有機會大展身手的你，展露頭角的機會來囉！</p>
+                <div class="d-flex justify-content-between py-12 mt-auto border-top border-bottom border-2 border-primary">
+                  <div class="d-flex">
+                    <img src="/assets/images/sparkler.png" class="me-4 sparkles-icon" width="20px" height="20px" alt="sparkles icon">
+                    <p class="fw-bold">遊戲競賽</p>
+                  </div>
+                  <a href="#" class="d-flex btn-sell">
+                    <p class="fw-bold" style="z-index: 1;">檢視活動</p>
+                    <img src="/assets/images/rounded-double-right 1.svg" class="ms-4" with="16px" height="16px" alt="double arrow icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- event blog 9 -->
+          <div class="col">
+            <div class="card h-100 bg-mud border-0">
+              <p class="fs-32 fs-xl-48 Yeseva-One border-bottom border-primary border-3">18 MAY 2023</p>
+              <img class="img-fuild event-photo py-12" style="object-fit: cover;" height="210px" src="/assets/images/event-09.jpg" alt="event photo">
+              <div class="card-body p-0 d-flex flex-column">
+                <h3 class="card-title fs-18 fs-md-24 fw-bold py-12">返老還童-制服聯誼</h3>
+                <p class="card-text mb-16">由戀愛家教「艾德溫」主辦策劃，讓各位在安排好的青春行程中擁有自然的純愛互動體驗，互相餵食餅乾、觀察對方手相，有趣的互動環節讓你/妳怦然心動！</p>
+                <div class="d-flex justify-content-between py-12 mt-auto border-top border-bottom border-2 border-primary">
+                  <div class="d-flex">
+                    <img src="/assets/images/sparkler.png" class="me-4 sparkles-icon" width="20px" height="20px" alt="sparkles icon">
+                    <p class="fw-bold">聯誼</p>
+                  </div>
+                  <a href="#" class="d-flex btn-sell">
+                    <p class="fw-bold" style="z-index: 1;">檢視活動</p>
+                    <img src="/assets/images/rounded-double-right 1.svg" class="ms-4" with="16px" height="16px" alt="double arrow icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- event blog 10 -->
+          <div class="col">
+            <div class="card h-100 bg-mud border-0">
+              <p class="fs-32 fs-xl-48 Yeseva-One border-bottom border-primary border-3">19 MAY 2023</p>
+              <img class="img-fuild event-photo py-12" style="object-fit: cover;" height="210px" src="/assets/images/event-10.jpg" alt="event photo">
+              <div class="card-body p-0 d-flex flex-column">
+                <h3 class="card-title fs-18 fs-md-24 fw-bold py-12">野外求生17天</h3>
+                <p class="card-text mb-16">野外求生體驗，我們將在沒有水、沒有電的自然環境裡，學習各項生存技能，課程內容包含生火、水源取得及淨化、射箭、木食器製作、無具野炊、野地編繩和狩獵技能...</p>
+                <div class="d-flex justify-content-between py-12 mt-auto border-top border-bottom border-2 border-primary">
+                  <div class="d-flex">
+                    <img src="/assets/images/sparkler.png" class="me-4 sparkles-icon" width="20px" height="20px" alt="sparkles icon">
+                    <p class="fw-bold">戶外</p>
+                  </div>
+                  <a href="#" class="d-flex btn-sell">
+                    <p class="fw-bold" style="z-index: 1;">開賣中</p>
+                    <img src="/assets/images/rounded-double-right 1.svg" class="ms-4" with="16px" height="16px" alt="double arrow icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- event blog 11 -->
+          <div class="col">
+            <div class="card h-100 bg-mud border-0">
+              <p class="fs-32 fs-xl-48 Yeseva-One border-bottom border-primary border-3">19 MAY 2023</p>
+              <img class="img-fuild event-photo py-12" style="object-fit: cover;" height="210px" src="/assets/images/event-11.jpg" alt="event photo">
+              <div class="card-body p-0 d-flex flex-column">
+                <h3 class="card-title fs-18 fs-md-24 fw-bold py-12">耳熟能詳音樂祭</h3>
+                <p class="card-text mb-16">對你來說聽都沒聽過的團，但是音樂一下保證跟著唱，重磅邀請各界隱藏天籟歌手、天團，不想曬太陽也可以在樹下當 KTV 跟著唱，唱不出來服務台報到立馬退費！</p>
+                <div class="d-flex justify-content-between py-12 mt-auto border-top border-bottom border-2 border-primary">
+                  <div class="d-flex">
+                    <img src="/assets/images/sparkler.png" class="me-4 sparkles-icon" width="20px" height="20px" alt="sparkles icon">
+                    <p class="fw-bold">演出</p>
+                  </div>
+                  <a href="#" class="d-flex btn-sell">
+                    <p class="fw-bold" style="z-index: 1;">開賣中</p>
+                    <img src="/assets/images/rounded-double-right 1.svg" class="ms-4" with="16px" height="16px" alt="double arrow icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- event blog 12 -->
+          <div class="col">
+            <div class="card h-100 bg-mud border-0">
+              <p class="fs-32 fs-xl-48 Yeseva-One border-bottom border-primary border-3">19 MAY 2023</p>
+              <img class="img-fuild event-photo py-12" style="object-fit: cover;" height="210px" src="/assets/images/event-12.jpg" alt="event photo">
+              <div class="card-body p-0 d-flex flex-column">
+                <h3 class="card-title fs-18 fs-md-24 fw-bold py-12">野營發呆大賽</h3>
+                <p class="card-text mb-16">你也是那種動不動就容易放空、神遊的人嗎？這輩子靠這技能出頭的機會來了，在恆春山林一起神遊、盡情地發呆吧！冠軍可以得到價值十萬的綿豆腐床墊一張！</p>
+                <div class="d-flex justify-content-between py-12 mt-auto border-top border-bottom border-2 border-primary">
+                  <div class="d-flex">
+                    <img src="/assets/images/sparkler.png" class="me-4 sparkles-icon" width="20px" height="20px" alt="sparkles icon">
+                    <p class="fw-bold">遊戲競賽</p>
+                  </div>
+                  <a href="#" class="d-flex btn-sell">
+                    <p class="fw-bold" style="z-index: 1;">開賣中</p>
+                    <img src="/assets/images/rounded-double-right 1.svg" class="ms-4" with="16px" height="16px" alt="double arrow icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="event page navigation" class="py-60 text-center">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link bg-mud p-11 border-primary fw-bold rounded-0 pagination-hover" href="#" aria-label="Previous">
+                <i class="icofont-arrow-left"></i>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link bg-mud py-8 px-15 border-primary fw-bold rounded-0 pagination-hover" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link bg-primary text-secondary py-8 px-15 border-primary fw-bold rounded-0 pagination-hover" href="#">2</a></li>
+            <li class="page-item"><a class="page-link bg-mud py-8 px-15 border-primary fw-bold rounded-0 pagination-hover" href="#">3</a></li>
+            <li class="page-item"><a class="page-link bg-mud py-8 px-15 border-primary fw-bold rounded-0 pagination-hover" href="#">4</a></li>
+            <li class="page-item"><a class="page-link bg-mud py-8 px-15 border-primary fw-bold rounded-0 pagination-hover" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link bg-mud p-11 border-primary fw-bold rounded-0 pagination-hover" href="#" aria-label="Next">
+                <i class="icofont-arrow-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+ 
+      </div>
+    </main>
     <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
   </body>
